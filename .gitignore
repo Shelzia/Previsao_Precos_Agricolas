@@ -1,0 +1,5 @@
+# Ignorar modelos grandes e arquivos temporários
+Modelo/
+*.pkl
+__pycache__/
+.DS_Store
