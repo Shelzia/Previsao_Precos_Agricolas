@@ -1,11 +1,11 @@
 
-# 📊 Previsão de Preços Agrícolas em Moçambique
+# Previsão de Preços Agrícolas em Moçambique
 
-Este projeto utiliza Machine Learning para prever os preços de produtos agrícolas em Moçambique com base em dados históricos da WFP (World Food Programme). Inclui análise exploratória, modelagem, visualização com Power BI e uma aplicação interativa com Streamlit.
+Este projecto utiliza Machine Learning para prever os preços de produtos agrícolas em Moçambique com base em dados históricos da WFP (World Food Programme). Inclui análise exploratória, modelagem, visualização com Power BI e uma aplicação interativa com Streamlit.
 
 ---
 
-## 🚀 Objetivo
+## Objectivo
 
 - Apoiar agricultores, gestores e analistas com previsões de preços agrícolas
 - Explorar dados reais e públicos para análise de tendências
@@ -13,7 +13,7 @@ Este projeto utiliza Machine Learning para prever os preços de produtos agríco
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python (Pandas, Scikit-learn, XGBoost, Streamlit, Joblib)
 - Power BI
@@ -22,7 +22,7 @@ Este projeto utiliza Machine Learning para prever os preços de produtos agríco
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projecto
 
 ```
 previsao_precos_agricolas/
@@ -35,11 +35,6 @@ previsao_precos_agricolas/
 │   └── 04_Prevendo_Precos.ipynb  # Notebook de modelagem
 ├── PowerBI/
 │   └── precos_agricolas_powerbi.csv  # Dataset limpo para Power BI
-├── apresentacoes/
-│   └── Apresentacao_Stakeholders.pptx  # Slides para stakeholders
-├── imgs/
-│   ├── streamlit_app.png         # Screenshot da aplicação
-│   └── dashboard_powerbi.png     # Dashboard Power BI
 ├── requirements.txt              # Dependências
 ├── .gitignore
 └── README.md
@@ -47,7 +42,7 @@ previsao_precos_agricolas/
 
 ---
 
-## ⚙️ Como Executar Localmente
+## Como Executar Localmente
 
 ```bash
 # Clone o repositório
@@ -70,7 +65,7 @@ streamlit run app_streamlit.py
 
 ---
 
-## 📦 Download do Modelo Treinado
+## Download do Modelo Treinado
 
 Como o GitHub não permite arquivos maiores que 100MB, o modelo `.pkl` foi disponibilizado via Google Drive:
 
@@ -78,7 +73,7 @@ Como o GitHub não permite arquivos maiores que 100MB, o modelo `.pkl` foi dispo
 
 ---
 
-## 🧠 Principais Descobertas
+## Principais Descobertas
 
 - **Milho branco (Maize white)**, **Arroz importado** e **Farinha de trigo** são os produtos com maior variação de preços.
 - As províncias do sul apresentam preços historicamente mais altos.
@@ -87,9 +82,9 @@ Como o GitHub não permite arquivos maiores que 100MB, o modelo `.pkl` foi dispo
 
 ---
 
-## 📊 Dashboard Power BI
+## Dashboard Power BI
 
-> 📁 Arquivo: `PowerBI/precos_agricolas_powerbi.csv`
+> Arquivo: `PowerBI/precos_agricolas_powerbi.csv`
 
 O dashboard inclui:
 
@@ -103,26 +98,26 @@ O dashboard inclui:
 
 ---
 
-## 🌐 Aplicação Streamlit
+## Aplicação Streamlit
 
 Interface interativa para simular previsões de preços agrícolas:
 
-📸 Exemplo:
+Exemplo:
 
 ![App Streamlit](imgs/streamlit_app.png)
 
 ---
 
-## 👩🏽‍💻 Autora
+## Autora
 
 **Shelzia Macie**  
-📍 Maputo, Moçambique  
-💼 Cientista de Dados | Analista de BI  
-🔗 [LinkedIn](https://www.linkedin.com/in/shelzia-macie)
+Maputo, Moçambique  
+Cientista de Dados | Analista de BI  
+[LinkedIn](https://www.linkedin.com/in/shelzia-macie)
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é de uso educacional e analítico.  
 Fonte dos dados: [World Food Programme - WFP](https://data.humdata.org/dataset/wfp-food-prices-for-mozambique).
