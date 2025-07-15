@@ -65,14 +65,6 @@ streamlit run app_streamlit.py
 
 ---
 
-## Download do Modelo Treinado
-
-Como o GitHub não permite arquivos maiores que 100MB, o modelo `.pkl` foi disponibilizado via Google Drive:
-
-🔗 [Download do modelo (.pkl) no Google Drive](https://drive.google.com/drive/folders/1_LDhv1TXYSrMF7V6q8-gncyUc6nfyXYa?usp=drive_link)
-
----
-
 ## Principais Descobertas
 
 - **Milho branco (Maize white)**, **Arroz importado** e **Farinha de trigo** são os produtos com maior variação de preços.
@@ -92,19 +84,11 @@ O dashboard inclui:
 - Comparação entre produtos e anos
 - Tabelas interativas por mercado
 
-📸 Exemplo:
-
-![Dashboard Power BI](imgs/dashboard_powerbi.png)
-
 ---
 
 ## Aplicação Streamlit
 
 Interface interativa para simular previsões de preços agrícolas:
-
-Exemplo:
-
-![App Streamlit](imgs/streamlit_app.png)
 
 ---
 
